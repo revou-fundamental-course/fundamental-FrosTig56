@@ -1,0 +1,67 @@
+/* Ini CSS */
+
+.nav-container {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+
+    /* For Image Icon */
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2e4b2a2b-521c-4707-b16f-645b22f8c479/dfmosun-003ff67c-2e4c-48ae-a83a-5873209dd47f.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJlNGIyYTJiLTUyMWMtNDcwNy1iMTZmLTY0NWIyMmY4YzQ3OVwvZGZtb3N1bi0wMDNmZjY3Yy0yZTRjLTQ4YWUtYTgzYS01ODczMjA5ZGQ0N2YuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Blln_ahbLc9cc2CJhrTQ3BsCJmN4HZV86PUQdNmxWf8);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav>a{
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid;
+}
+
+.banner-container {
+    height: 350px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-item {
+    flex: 1;
+    text-align: -webkit-center;
+}
+
+.profile-icon {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+
+     /* For Image Icon */
+     background-image: url(../Assets/rusdi.jpeg);
+     background-size: cover;
+     border-radius: 50%;
+}
+
+.profile-1 {
+    background-image: url(../Assets/rusdi.jpeg);
+}
+
+.profile-2 {
+    background-image: url(../Assets/imut.jpeg);
+}
+
+.profile-3 {
+    background-image: url(../Assets/rehan.jpg);
+}
+
+.divider {
+    flex: 2;
+}
